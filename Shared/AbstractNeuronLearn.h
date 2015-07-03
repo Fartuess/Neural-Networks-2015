@@ -10,8 +10,6 @@
 class AbstractNeuronLearn
 {
 public:
-	//AbstractNeuronLearn();
-	//~AbstractNeuronLearn();
 
 	/**
 	  * Single interation of learning a neuron.
