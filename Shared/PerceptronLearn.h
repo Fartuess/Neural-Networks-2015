@@ -1,11 +1,11 @@
 #pragma once
-#include "AbstractNeuronLearn.h"
+#include "INeuronLearn.h"
 
 
 /**
   * Strategy of learning perceptron neuron.
   */
-class PerceptronLearn : public AbstractNeuronLearn
+class PerceptronLearn : public INeuronLearn
 {
 public:
 	/**

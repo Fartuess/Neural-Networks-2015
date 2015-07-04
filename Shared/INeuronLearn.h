@@ -3,11 +3,10 @@
 #include <QtCore\qvector.h>
 #include "Neuron.h"
 
-// TODO Rename class to INeuronLearn.
 /**
   * Abstract class for learning neuron.
   */
-class AbstractNeuronLearn
+class INeuronLearn
 {
 public:
 

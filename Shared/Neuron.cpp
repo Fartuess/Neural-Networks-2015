@@ -1,5 +1,5 @@
 #include "Neuron.h"
-#include "AbstractNeuronLearn.h"
+#include "INeuronLearn.h"
 #include "SimpleNeuronActivationFunction.h"
 
 #include <QtCore\qstring.h>
@@ -137,7 +137,7 @@ double Neuron::boolToSign(bool value)
 	return (((double)value) - 0.5) * 2;
 }
 
-void Neuron::learnSteps(AbstractNeuronLearn& learningStrategy, QList<NeuronInputs>& trainingInputs, QList<bool>& trainingOutputs, int steps)
+void Neuron::learnSteps(INeuronLearn& learningStrategy, QList<NeuronInputs>& trainingInputs, QList<bool>& trainingOutputs, int steps)
 {
 	for (int i = 0; i < steps; i++)
 	{
@@ -145,7 +145,7 @@ void Neuron::learnSteps(AbstractNeuronLearn& learningStrategy, QList<NeuronInput
 	}
 }
 
-int Neuron::learnErrorThreshold(AbstractNeuronLearn& learningStrategy, QList<NeuronInputs>& trainingInputs, QList<bool>& trainingOutputs, double errorThreshold)
+int Neuron::learnErrorThreshold(INeuronLearn& learningStrategy, QList<NeuronInputs>& trainingInputs, QList<bool>& trainingOutputs, double errorThreshold)
 {
 	bool changed;
 	int iterationCounter = 0;

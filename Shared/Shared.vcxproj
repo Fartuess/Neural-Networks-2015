@@ -137,14 +137,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AbstractLayerNeuralNetworkLearn.cpp" />
     <ClCompile Include="AbstractNeuralNetwork.cpp" />
     <ClCompile Include="BackpropagationLayerNeuralNetworkLearn.cpp" />
-    <ClCompile Include="INeuronActivationFunction.cpp" />
     <ClCompile Include="LayeredNeuralNetwork.cpp" />
     <ClCompile Include="LogisticNeuronActivationFunction.cpp" />
     <ClCompile Include="Neuron.cpp" />
-    <ClCompile Include="AbstractNeuronLearn.cpp" />
     <ClCompile Include="PerceptronLearn.cpp" />
     <ClCompile Include="Polynomial.cpp" />
     <ClCompile Include="SimpleNeuronActivationFunction.cpp" />
@@ -183,7 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractLayerNeuralNetworkLearn.h" />
-    <ClInclude Include="AbstractNeuronLearn.h" />
+    <ClInclude Include="INeuronLearn.h" />
     <ClInclude Include="AbstractNeuralNetwork.h" />
     <ClInclude Include="BackpropagationLayerNeuralNetworkLearn.h" />
     <ClInclude Include="INeuronActivationFunction.h" />

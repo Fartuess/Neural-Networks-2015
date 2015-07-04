@@ -136,7 +136,7 @@ public:
 	  * @param trainingOutputs list of expected outputs for given input vectors.
 	  * @param steps number of learning iterations to make.
 	  */
-	void learnSteps(class AbstractNeuronLearn& learningStrategy, QList<NeuronInputs>& trainingInputs, QList<bool>& trainingOutputs, int steps);
+	void learnSteps(class INeuronLearn& learningStrategy, QList<NeuronInputs>& trainingInputs, QList<bool>& trainingOutputs, int steps);
 
 	/**
 	  * Learns the Neuron using given learning strategy, input sets and expected outputs untill error is lower than error threshold.
@@ -146,7 +146,7 @@ public:
 	  * @param errorThreshold all errors in iterations have to be lower than this to stop learning.
 	  * @return number of iterations made.
 	  */
-	int learnErrorThreshold(class AbstractNeuronLearn& learningStrategy, QList<NeuronInputs>& trainingInputs, QList<bool>& trainingOutputs, double errorThreshold);
+	int learnErrorThreshold(class INeuronLearn& learningStrategy, QList<NeuronInputs>& trainingInputs, QList<bool>& trainingOutputs, double errorThreshold);
 
 private:
 	double threshold;

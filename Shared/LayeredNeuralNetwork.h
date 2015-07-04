@@ -8,7 +8,7 @@
 class LayeredNeuralNetwork : public AbstractNeuralNetwork
 {
 public:
-	///TODO: remove class friendship, create helper methods.
+	// TODO remove class friendship, create helper methods.
 	friend class AbstractLayerNeuralNetworkLearn;
 	friend class BackpropagationLayerNeuralNetworkLearn;
 
