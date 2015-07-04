@@ -2,7 +2,7 @@
 #include "INeuronLearn.h"
 #include "SimpleNeuronActivationFunction.h"
 
-#include <QtCore\qstring.h>
+#include <QtCore/qstring.h>
 
 Neuron::Neuron(int numberOfInputs, double threshold)
 {

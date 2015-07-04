@@ -2,7 +2,7 @@
 #include "PerceptronLearn.h"
 
 #include <QtCore/QCoreApplication>
-#include <QtCore\qdebug.h>
+#include <QtCore/qdebug.h>
 
 int main(int argc, char *argv[])
 {
@@ -63,7 +63,6 @@ int main(int argc, char *argv[])
 	trainingInputs.push_back(f2);
 	trainingOutputs.push_back(false);
 
-	//perceptron.learnSteps(PerceptronLearn(0.1), trainingInputs, trainingOutputs, 5);
 	int n0 = perceptron.learnErrorThreshold(PerceptronLearn(0.1), trainingInputs, trainingOutputs, 0.0);
 
 	qDebug() << "PERFORMING TESTS";

@@ -19,6 +19,12 @@
       <Extensions>moc;h;cpp</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Header Files\Networks">
+      <UniqueIdentifier>{b591e5ef-2291-46fc-addc-1be985034253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networks">
+      <UniqueIdentifier>{1dcf1fa0-2f9e-4f15-8baf-b953b3f0e15c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Neuron.cpp">
@@ -27,23 +33,20 @@
     <ClCompile Include="PerceptronLearn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Polynomial.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractNeuralNetwork.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LayeredNeuralNetwork.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BackpropagationLayerNeuralNetworkLearn.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="SimpleNeuronActivationFunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LogisticNeuronActivationFunction.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractNeuralNetwork.cpp">
+      <Filter>Source Files\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="BackpropagationLayerNeuralNetworkLearn.cpp">
+      <Filter>Source Files\Networks</Filter>
+    </ClCompile>
+    <ClCompile Include="LayeredNeuralNetwork.cpp">
+      <Filter>Source Files\Networks</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -53,21 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PerceptronLearn.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Polynomial.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractNeuralNetwork.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LayeredNeuralNetwork.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractLayerNeuralNetworkLearn.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BackpropagationLayerNeuralNetworkLearn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="INeuronActivationFunction.h">
@@ -81,6 +69,18 @@
     </ClInclude>
     <ClInclude Include="INeuronLearn.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractLayerNeuralNetworkLearn.h">
+      <Filter>Header Files\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="BackpropagationLayerNeuralNetworkLearn.h">
+      <Filter>Header Files\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="LayeredNeuralNetwork.h">
+      <Filter>Header Files\Networks</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractNeuralNetwork.h">
+      <Filter>Header Files\Networks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

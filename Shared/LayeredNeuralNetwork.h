@@ -1,4 +1,5 @@
 #pragma once
+
 #include "AbstractNeuralNetwork.h"
 #include "AbstractLayerNeuralNetworkLearn.h"
 

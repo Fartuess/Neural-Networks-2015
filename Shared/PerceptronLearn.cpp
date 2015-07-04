@@ -1,7 +1,7 @@
 #include "PerceptronLearn.h"
 #include "Neuron.h"
 
-#include <QtCore\qstring.h>
+#include <QtCore/qstring.h>
 
 PerceptronLearn::PerceptronLearn(double constantScale)
 {

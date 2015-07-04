@@ -1,8 +1,8 @@
 #include "Neuron.h"
 
-#include <QtCore\QCoreApplication>
-#include <QtCore\qtextstream.h>
-#include <QtCore\qdebug.h>
+#include <QtCore/QCoreApplication>
+#include <QtCore/qtextstream.h>
+#include <QtCore/qdebug.h>
 
 
 int main(int argc, char *argv[])

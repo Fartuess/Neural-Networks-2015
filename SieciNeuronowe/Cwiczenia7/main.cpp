@@ -1,9 +1,9 @@
 #include <QtCore/QCoreApplication>
-#include <QtCore\qvector.h>
+#include <QtCore/qvector.h>
 #include <random>
-#include <QtCore\qmath.h>
-#include <QtCore\qtextstream.h>
-#include <QtCore\qdebug.h>
+#include <QtCore/qmath.h>
+#include <QtCore/qtextstream.h>
+#include <QtCore/qdebug.h>
 
 double _temperature = 2.5;
 

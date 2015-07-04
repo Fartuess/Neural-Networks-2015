@@ -1,6 +1,6 @@
 #pragma once
-#include "INeuronLearn.h"
 
+#include "INeuronLearn.h"
 
 /**
   * Strategy of learning perceptron neuron.

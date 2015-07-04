@@ -1,6 +1,6 @@
 #pragma once
-#include "Neuron.h"
 
+#include "Neuron.h"
 
 /**
   * Abstract neural network class.

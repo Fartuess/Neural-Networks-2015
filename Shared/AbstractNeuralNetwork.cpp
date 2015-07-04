@@ -1,5 +1,5 @@
 #include "AbstractNeuralNetwork.h"
-#include <QtCore\qstring.h>
+#include <QtCore/qstring.h>
 
 AbstractNeuralNetwork::AbstractNeuralNetwork(int numberOfInputs)
 {

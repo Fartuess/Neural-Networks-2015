@@ -1,7 +1,7 @@
 #include "LogisticNeuronActivationFunction.h"
 #include "Neuron.h"
 
-#include <QtCore\qmath.h>
+#include <QtCore/qmath.h>
 
 LogisticNeuronActivationFunction::LogisticNeuronActivationFunction(double beta)
 {

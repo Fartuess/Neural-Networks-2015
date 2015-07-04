@@ -4,7 +4,7 @@
 #include <QtCore/qmap.h>
 #include <QtCore/qdebug.h>
 
-#include "Polynomial.h"
+//#include "Polynomial.h"
 
 int main(int argc, char *argv[])
 {

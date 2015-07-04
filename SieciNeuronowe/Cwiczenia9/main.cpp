@@ -1,9 +1,17 @@
 #include <QtCore/QCoreApplication>
-#include <QtCore\qmath.h>
+#include <QtCore/qmath.h>
 #include <QtCore/qpair.h>
 #include <QtCore/qdebug.h>
 #include <random>
 
+/**
+  * Kind of approximation of Shor's quantum algorithm of factorization of number. Names of functions same as specified in Task.
+  */
+
+
+/**
+  * Calculates greatest common denominator.
+  */
 int gcd(int a, int b)
 {
 	//Nonrecursive modification of algorithm to prevent stack overflows or high memory usage;
@@ -26,6 +34,9 @@ int gcd(int a, int b)
 	}
 }
 
+/**
+  * In Shor's algorithm this part is normally calculated on quantum computer, but we use classic equivalent.
+  */
 int dl(int base, int modulo)
 {
 	for (int i = 2; i <= modulo; i += 2)

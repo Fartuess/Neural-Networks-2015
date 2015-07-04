@@ -1,8 +1,9 @@
 #include <QtCore/QCoreApplication>
+#include <QtCore/qtextstream.h>
+#include <QtCore/qdebug.h>
+
 #include "LayeredNeuralNetwork.h"
 #include "BackpropagationLayerNeuralNetworkLearn.h"
-#include <QtCore\qtextstream.h>
-#include <QtCore\qdebug.h>
 
 int main(int argc, char *argv[])
 {

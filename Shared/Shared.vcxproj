@@ -93,7 +93,7 @@
       <Optimization>Disabled</Optimization>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>.;E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\include;.\GeneratedFiles\$(ConfigurationName);E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;$(SolutionDir)..\Qt\include;.\GeneratedFiles\$(ConfigurationName);$(SolutionDir)..\Qt\include\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
     </ClCompile>
     <Link>
@@ -143,7 +143,6 @@
     <ClCompile Include="LogisticNeuronActivationFunction.cpp" />
     <ClCompile Include="Neuron.cpp" />
     <ClCompile Include="PerceptronLearn.cpp" />
-    <ClCompile Include="Polynomial.cpp" />
     <ClCompile Include="SimpleNeuronActivationFunction.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -187,7 +186,6 @@
     <ClInclude Include="LayeredNeuralNetwork.h" />
     <ClInclude Include="LogisticNeuronActivationFunction.h" />
     <ClInclude Include="PerceptronLearn.h" />
-    <ClInclude Include="Polynomial.h" />
     <ClInclude Include="SimpleNeuronActivationFunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

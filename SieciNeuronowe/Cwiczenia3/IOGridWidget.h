@@ -1,8 +1,8 @@
 #pragma once
 #include "qwidget.h"
 
-#include <QtCore\qvector.h>
-#include <QtWidgets\qcheckbox.h>
+#include <QtCore/qvector.h>
+#include <QtWidgets/qcheckbox.h>
 
 class IOGridWidget :
 	public QWidget

@@ -1,7 +1,7 @@
 #include "LayeredNeuralNetwork.h"
 #include "LogisticNeuronActivationFunction.h"
 #include <QtCore/qstring.h>
-#include <QtCore\qvector.h>
+#include <QtCore/qvector.h>
 
 
 LayeredNeuralNetwork::LayeredNeuralNetwork(int numberOfInputs, double beta) : AbstractNeuralNetwork(numberOfInputs)

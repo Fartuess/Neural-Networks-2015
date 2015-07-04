@@ -1,5 +1,5 @@
 #include "BackpropagationLayerNeuralNetworkLearn.h"
-#include <QtCore\qstring.h>
+#include <QtCore/qstring.h>
 
 BackpropagationLayerNeuralNetworkLearn::BackpropagationLayerNeuralNetworkLearn()
 {

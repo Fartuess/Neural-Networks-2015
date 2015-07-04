@@ -1,6 +1,6 @@
 #include "IOGridWidget.h"
 
-#include <QtWidgets\qgridlayout.h>
+#include <QtWidgets/qgridlayout.h>
 
 IOGridWidget::IOGridWidget(QWidget* parent) :QWidget(parent)
 {

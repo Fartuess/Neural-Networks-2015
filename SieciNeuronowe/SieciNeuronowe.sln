@@ -22,6 +22,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cwiczenia8", "Cwiczenia8\Cwiczenia8.vcxproj", "{11F28857-C0C7-4118-9B16-F1969F52388B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cwiczenia5", "Cwiczenia5\Cwiczenia5.vcxproj", "{96A6EA38-F33D-4C68-B952-FA144993028D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B002267-03CE-4D7A-B263-380EFBB2AD00} = {8B002267-03CE-4D7A-B263-380EFBB2AD00}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

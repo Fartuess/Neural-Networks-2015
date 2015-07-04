@@ -1,10 +1,10 @@
 #include <QtCore/QCoreApplication>
-#include <QtCore\qvector.h>
-#include <QtCore\qlist.h>
-#include <QtCore\qmath.h>
+#include <QtCore/qvector.h>
+#include <QtCore/qlist.h>
+#include <QtCore/qmath.h>
 #include <random>
-#include <QtCore\qdebug.h>
-#include <QtCore\qtextstream.h>
+#include <QtCore/qdebug.h>
+#include <QtCore/qtextstream.h>
 
 double E(QVector<int> path, QVector<QVector<double>> travelCost)
 {

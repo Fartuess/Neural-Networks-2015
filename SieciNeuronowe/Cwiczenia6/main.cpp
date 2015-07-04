@@ -1,14 +1,14 @@
 #include <QtCore/QCoreApplication>
-#include <QtCore\qvector.h>
+#include <QtCore/qvector.h>
 #include <random>
-#include <QtCore\qbuffer.h>
-#include <QtCore\qtextstream.h>
-#include <QtCore\qdebug.h>
-#include <QtCore\qprocess.h>
+#include <QtCore/qbuffer.h>
+#include <QtCore/qtextstream.h>
+#include <QtCore/qdebug.h>
+#include <QtCore/qprocess.h>
 
 /**
- * I'm fully aware that this code looks terrible. 
- */
+  * I'm fully aware that this code looks terrible. 
+  */
 int main(int argc, char *argv[])
 {
 	QCoreApplication a(argc, argv);

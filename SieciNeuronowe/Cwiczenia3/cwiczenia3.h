@@ -1,5 +1,4 @@
-#ifndef CWICZENIA3_H
-#define CWICZENIA3_H
+#pragma once
 
 #include <QtWidgets/QMainWindow>
 #include <QtCore/qvector.h>
@@ -19,5 +18,3 @@ private:
 public slots:
 	void setOutput();
 };
-
-#endif // CWICZENIA3_H
