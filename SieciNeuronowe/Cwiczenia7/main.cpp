@@ -87,6 +87,7 @@ int main(int argc, char *argv[])
 			line.clear();
 		}
 	}
+	qDebug() << "Press Enter.";
 	io.readLine();
 
 	qDebug() << "Annealing:\n1 - No\n2 - Yes";
@@ -145,6 +146,7 @@ int main(int argc, char *argv[])
 				line.clear();
 			}
 		}
+		qDebug() << "Press Enter.";
 		io.readLine();
 	}
 

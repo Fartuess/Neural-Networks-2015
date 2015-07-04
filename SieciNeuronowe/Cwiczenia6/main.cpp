@@ -130,6 +130,7 @@ int main(int argc, char *argv[])
 			line.clear();
 		}
 	}
+	qDebug() << "Press Enter.";
 	io.readLine();
 
 	//Learning
@@ -178,6 +179,7 @@ int main(int argc, char *argv[])
 				line.clear();
 			}
 		}
+		qDebug() << "Press Enter.";
 		io.readLine();
 	}
 
