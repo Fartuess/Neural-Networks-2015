@@ -5,6 +5,9 @@
 #include "LayeredNeuralNetwork.h"
 #include "BackpropagationLayerNeuralNetworkLearn.h"
 
+/**
+  * This Example is unfinished as Backpropagation learning feature is not yet finished.
+  */
 int main(int argc, char *argv[])
 {
 	QCoreApplication a(argc, argv);
@@ -44,7 +47,8 @@ int main(int argc, char *argv[])
 	trainingInputs.push_back(t4);
 	trainingOutputs.push_back(false);
 
-	xorNetwork.learnSteps(BackpropagationLayerNeuralNetworkLearn(), trainingInputs, trainingOutputs, 4);
+
+	//xorNetwork.learnSteps(BackpropagationLayerNeuralNetworkLearn(), trainingInputs, trainingOutputs, 4);
 
 	//Printing out weigths results
 
@@ -68,20 +72,20 @@ int main(int argc, char *argv[])
 
 	//Testing results
 
-	QTextStream input(stdin);
-	while (true)
-	{
-		qDebug() << "Assign 2 inputs.";
-		for (int i = 0; i < xorNetwork.getInputCount(); i++)
-		{
-			double value;
-			input >> value;
-			xorNetwork.setInput(i, value);
-		}
-
-		xorNetwork.calculateOutput();
-		qDebug() << xorNetwork.getOutput();
-	}
+	//QTextStream input(stdin);
+	//while (true)
+	//{
+	//	qDebug() << "Assign 2 inputs.";
+	//	for (int i = 0; i < xorNetwork.getInputCount(); i++)
+	//	{
+	//		double value;
+	//		input >> value;
+	//		xorNetwork.setInput(i, value);
+	//	}
+	//
+	//	xorNetwork.calculateOutput();
+	//	qDebug() << xorNetwork.getOutput();
+	//}
 
 	return a.exec();
 }
