@@ -1,0 +1,8 @@
+*.suo
+*.filters
+*.log
+*.tlog
+*.lastbuildstate
+*.pdb
+*.obj
+*.ilk
