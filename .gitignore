@@ -7,3 +7,6 @@
 *.obj
 *.ilk
 *.sdf
+!*.lib
+!*.dll
+!*.exe
