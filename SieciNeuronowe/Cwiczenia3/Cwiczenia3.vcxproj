@@ -54,7 +54,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
-      <AdditionalLibraryDirectories>E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\lib;$(SolutionDir)\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\..\..\Qt\lib;$(SolutionDir)\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\lib\qtmaind.lib;E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\lib\Qt5Cored.lib;E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\lib\Qt5Guid.lib;E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\lib\Qt5Widgetsd.lib;Shared.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
