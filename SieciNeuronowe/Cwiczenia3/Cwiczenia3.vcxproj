@@ -92,6 +92,7 @@
     <ClCompile Include="IOGridWidget.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <!--
   <ItemGroup>
     <CustomBuild Include="cwiczenia3.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\bin\moc.exe;%(FullPath)</AdditionalInputs>
@@ -116,6 +117,7 @@
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"</Command>
     </CustomBuild>
   </ItemGroup>
+  -->
   <ItemGroup>
     <CustomBuild Include="GeneratedFiles\ui_cwiczenia3.h">
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -134,6 +136,7 @@
       </AdditionalInputs>
     </CustomBuild>
   </ItemGroup>
+  <!--
   <ItemGroup>
     <CustomBuild Include="cwiczenia3.qrc">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(FullPath);%(AdditionalInputs)</AdditionalInputs>
@@ -146,6 +149,7 @@
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"E:\Programy\Qt\Qt5.4.0\5.4\msvc2013_64_opengl\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
     </CustomBuild>
   </ItemGroup>
+  -->
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\Shared.vcxproj">
       <Project>{8b002267-03ce-4d7a-b263-380efbb2ad00}</Project>
